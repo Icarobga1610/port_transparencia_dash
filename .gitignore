@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+.cache
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Power BI
+*.pbix
+*.pbit
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Node.js (front-end, Netlify/Vercel)
+node_modules/
+dist/
+build/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# MongoDB
+dump/
+
+# Segredos locais (não subir arquivos de configuração com chaves)
+.env
+secrets.json
